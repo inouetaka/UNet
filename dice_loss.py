@@ -31,7 +31,7 @@ class DiceCoeff(Function):
 def dice_coeff(input, target):
     """Dice coeff for batches"""
     if input.is_cuda:
-        s = torch.FlatTensor(1).cuda().zero_()
+        s = torch.FloatTensor(1).cuda().zero_()
     else:
         s = torch.FloatTensor(1).zero_()
 
