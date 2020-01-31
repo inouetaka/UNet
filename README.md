@@ -1,6 +1,8 @@
 # U_Net Pytorch
 
 ## dataset
+[Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge)のデータセットを使います。
+
 data/   
  ├ imgs/ - *.jpg   
  └ masks/ - *.gif   
