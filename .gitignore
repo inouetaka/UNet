@@ -1,3 +1,7 @@
+checkpoints/
+data/
+runs/
+
 .idea/
 venv/
 .idea/
