@@ -29,3 +29,6 @@ data/
 '--mask-threshold', '-t', type=float, default=0.5
 '--scale', '-s', type=float, default=0.5
 ```
+
+## Tensorboardで学習過程の確認
+`tensorboard --logdir=runs`
