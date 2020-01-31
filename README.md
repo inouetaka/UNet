@@ -2,8 +2,8 @@
 
 ## dataset
 data/   
- ├ imgs - *.jpg   
- └ masks - *.gif   
+ ├ imgs/ - *.jpg   
+ └ masks/ - *.gif   
 
 ## Train
 オプション
