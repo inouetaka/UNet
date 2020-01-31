@@ -1,5 +1,8 @@
 # U_Net Pytorch
 
+## マスキングの結果
+![result](https://github.com/inouetaka/UNet/blob/master/example_image/Figure_1.png)
+
 ## dataset
 [Carvana Image Masking Challenge](https://www.kaggle.com/c/carvana-image-masking-challenge)のデータセットを使います。
 
