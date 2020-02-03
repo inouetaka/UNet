@@ -26,14 +26,14 @@ def submit(net, device):
     with open('SUBMISSON.csv', 'a') as f:
         f.write('img,rle_mask\n')
         for index, i in enumerate(os.listdir(dir)):
-            print('{}/{}'.format(index, N))
-
             img = Image.open(dir + i)
 
             mask = predict_img(net, img, device)
             enc = rle_encode(mask)
             f.write('{},{}\n'.format(i, ' '.join(map(str, enc))))
 
+            if index % 1e2 == 0:
+                print('{}/{}'.format(index, N))
 
 if __name__ == '__main__':
     net = UNet(3, 1).to(device)
