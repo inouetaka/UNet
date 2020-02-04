@@ -3,10 +3,10 @@ runs/
 
 .idea/
 venv/
-.idea/
 __pycache__/
-
 .DS_Store
+
 *.pyc
 *.jpg
 *.gif
+*.csv
